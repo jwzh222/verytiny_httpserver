@@ -1,5 +1,7 @@
-# 此代码不是我写的，来自网络，仅供学习参考
-# 一个标准C实现的http服务器，目前只能处理简单的get请求，在ubuntu+gcc编译通过
+# 简易http服务器--标准C实现
+
+此代码不是我写的，来自网络，仅供学习参考
+一个标准C实现的http服务器，目前只能处理简单的get请求，在ubuntu+gcc编译通过
 
 
 编译演示：
@@ -13,5 +15,5 @@ gcc httpserver.c -o httpserver
 
 3.浏览器地址栏输入：  127.0.0.1:8080/one.html
 
-
+![image](https://github.com/jwzh222/verytiny_httpserver/raw/master/Image.png)
 
